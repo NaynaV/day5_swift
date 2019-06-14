@@ -26,6 +26,17 @@ s.email = "prasher.neeraj99@gmail.com"
 s.marks = ["Math": 89,
            "Science": 92,
            "English": 95]
+
+var studentaddress =  Address(suiteNumber: 100, streetName: "Yorkland blvd", city: "Toronto", postalCode: "M1S3E6", countryName : "Canada")
+s.Address = studentaddress
+print(s.Address.city)
+
+var ss = s
+ss.firstName = "New First Name"
+
+print(ss.firstName ?? "No First Name")
+print(s.firstName ?? "No first name")
+
 s.dummy=200
 
 print("Dummy ",s.dummy)

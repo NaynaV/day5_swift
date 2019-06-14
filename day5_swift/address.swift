@@ -15,5 +15,11 @@ struct Address
     var streetName:String
     var city:String
     var postalCode:String
+    var countryName : String
     
+    
+    func setCity(city : String)
+    {
+    self.city = city
+    }
 }

@@ -10,6 +10,10 @@ import Foundation
 
 class Person : Display
 {
+    func Display() {
+        <#code#>
+    }
+    
     var dummy: Int
     
     var firstName:String
@@ -17,6 +21,7 @@ class Person : Display
     var birthDate:Date
     var gender:String
     var email:String
+    var Address : Address
     private var _id:Int //instance
     var id:Int?
     {
